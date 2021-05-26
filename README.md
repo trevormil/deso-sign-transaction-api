@@ -3,7 +3,7 @@ API to sign a BitClout transaction by manually entering encryptionKey, encrypted
 
 I created this for personal use and it may contain vulnerabilities. Do not fully trust this code. Please let me know of any issues you may find.
 
-Most of code was taken from BitClout's open source backend repository. One thing I took out was the accessLevel check. This API does not take into account the accessLevel or accessLevelHmac. Please implement this on your own if you wish.
+Most of code was taken from BitClout's open source identity repository. One thing I took out was the accessLevel check. This API does not take into account the accessLevel or accessLevelHmac. Please implement this on your own if you wish.
 
 Note: This is my personal API. You may use it if you want, but it is strongly recommended not to. You need to enter your encryptedSeedHex and an encryptionKey which should never be given out to anyone under any circumstances. You have full permission to use this code, but PLEASE CREATE YOUR OWN API FOR PRIVACY REASONS.
 How to use:
