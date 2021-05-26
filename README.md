@@ -5,8 +5,7 @@ I created this for personal use and it may contain vulnerabilities. Do not fully
 
 Most of code was taken from BitClout's open source backend repository. One thing I took out was the accessLevel check. This API does not take into account the accessLevel or accessLevelHmac. Please implement this on your own if you wish.
 
-Note: This is my personal API. You may use it if you want, but it is strongly recommended not to. You need to enter your encryptedSeedHex and an encryptionKey which should never be given out to anyone under any circumstances. You have full permission to use this code, but PLEASE create your own API for privacy reasons.
-
+Note: This is my personal API. You may use it if you want, but it is strongly recommended not to. You need to enter your encryptedSeedHex and an encryptionKey which should never be given out to anyone under any circumstances. You have full permission to use this code, but PLEASE CREATE YOUR OWN API FOR PRIVACY REASONS.
 How to use:
 
 1) Get a BitClout TransactionHex from one of BitClout's backend API routes. More info can be found at https://github.com/bitclout/frontend/blob/main/src/app/backend-api.service.ts.
