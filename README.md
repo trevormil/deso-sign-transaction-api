@@ -16,7 +16,7 @@ One error I ran into was TxInputs was coming back null because I didn't include 
 
 3) Important: get your encryption key from the same hostname as you got your encryptedSeedHex from. This can be done by viewing the local storage of identity.bitclout.com and finding the field that is seed-hex-key-yourhostname.
 
-4) Submit an HTTP POST request to your API route that holds your function (mine lives at POST - https://us-central1-bitbadgespost.cloudfunctions.net/api/sign). The request body should be a JSON object in the following format: 
+4) Submit an HTTP POST request to your API route that holds your function (mine lives at POST - https://us-central1-bitbadgespost.cloudfunctions.net/api/sign (currently not running because I have too many projects for my free tier on Firebase)). The request body should be a JSON object in the following format: 
 {
   transactionHex: "",
   encryptedSeedHex: "",
