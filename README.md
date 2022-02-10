@@ -8,9 +8,9 @@ Most of code was taken from DeSo's open source identity repository. One thing I 
 Note: This is my personal API. You may use it if you want, but it is strongly recommended not to. You need to enter your encryptedSeedHex and an encryptionKey which should never be given out to anyone under any circumstances. You have full permission to use this code, but PLEASE CREATE YOUR OWN API FOR PRIVACY REASONS.
 How to use:
 
-1) Get a TransactionHex from one of DeSo's backend API routes. More info can be found at https://github.com/deso/frontend/blob/main/src/app/backend-api.service.ts.
+1) Get a TransactionHex from one of DeSo's backend API routes. More info can be found in DeSo's documentation for their backend API.
 
-2) Get your encryptedSeedHex for your account using DeSo Identity: https://docs.bitclout.com/devs/identity-api. I found https://github.com/BogdanDidenko/react-bitclout-login really useful.
+2) Get your encryptedSeedHex for your account using DeSo Identity. I found https://github.com/BogdanDidenko/react-bitclout-login really useful. Also, this can be found in your browser's local storage.
 
 3) Important: get your encryption key from the same hostname as you got your encryptedSeedHex from. This can be done by viewing the local storage of identity.bitclout.com and finding the field that is seed-hex-key-yourhostname.
 
