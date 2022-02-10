@@ -21,7 +21,7 @@ How to use:
   hostEncryptionKey: ""
 }
 
-5) You should get back a JSON object with a signedHex property. This signedHex can then be entered into the request body of POST - https://bitclout.com/api/v0/submit-transaction in the format:
+5) You should get back a JSON object with a signedHex property. This signedHex can then be entered into the request body of the POST submit-transaction endpoint:
 {
   TransactionHex: ""
 }
